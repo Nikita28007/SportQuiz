@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ski"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/questionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="#FEF7E4"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_margin="14dp"
+        android:id="@+id/radioGroupQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:theme="@style/radionbutton" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:theme="@style/radionbutton" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:theme="@style/radionbutton" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:textColor="#FEF7E4"
+        android:id="@+id/checkAnswerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADC6E4"
+        android:text="Check answer" />
+
+    <Button
+        android:textColor="#FEF7E4"
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADC6E4"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#CCE7F8"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
