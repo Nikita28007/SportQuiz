@@ -6,15 +6,15 @@
 
     <fragment
         android:id="@+id/fragmentWebView"
-        android:name="com.example.sportquiz.FragmentWebView"
+        android:name="wintergames.ultimate.FragmentWebView"
         android:label="FragmentWebView" />
     <fragment
         android:id="@+id/quizFragment"
-        android:name="com.example.sportquiz.QuizFragment"
+        android:name="wintergames.ultimate.QuizFragment"
         android:label="QuizFragment" />
     <fragment
         android:id="@+id/spashScreen"
-        android:name="com.example.sportquiz.SpashScreen"
+        android:name="wintergames.ultimate.SpashScreen"
         android:label="SpashScreen" >
         <action
             android:id="@+id/action_spashScreen_to_quizFragment"

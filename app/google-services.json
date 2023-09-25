@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "111770990868",
-    "project_id": "testapp-48002",
-    "storage_bucket": "testapp-48002.appspot.com"
+    "project_number": "249655518567",
+    "project_id": "duwsw-3a26a",
+    "storage_bucket": "duwsw-3a26a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:111770990868:android:88883081059b317d34aa01",
+        "mobilesdk_app_id": "1:249655518567:android:7260897843591434c5bbc2",
         "android_client_info": {
-          "package_name": "com.example.sportquiz"
+          "package_name": "wintergames.ultimate"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "111770990868-5bhnnb6bldme5ebmro6r71bikva58nuu.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCj-5wGZaPV966xcjZsPyAYHfKqdtwr1nU"
+          "current_key": "AIzaSyAaZ_mC8JUONkeQoxM9GO18AJ_e1GLYAxA"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "111770990868-5bhnnb6bldme5ebmro6r71bikva58nuu.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

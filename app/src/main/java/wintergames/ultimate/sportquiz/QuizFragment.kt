@@ -1,4 +1,4 @@
-package com.example.sportquiz
+package wintergames.ultimate
 
 import android.os.Bundle
 import android.util.Log
@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
+import wintergames.ultimate.R
 
 
 class QuizFragment : Fragment() {
@@ -30,9 +31,9 @@ class QuizFragment : Fragment() {
         val answerText = view.findViewById<TextView>(R.id.answerText)
         val title = view.findViewById<TextView>(R.id.questionTitle)
         title.text = questions[0].toString()
-        val option1 = view.findViewById<TextView>(R.id.radioButton1)
-        val option2 = view.findViewById<TextView>(R.id.radioButton2)
-        val option3 = view.findViewById<TextView>(R.id.radioButton3)
+        val option1 = view.findViewById<RadioButton>(R.id.radioButton1)
+        val option2 = view.findViewById<RadioButton>(R.id.radioButton2)
+        val option3 = view.findViewById<RadioButton>(R.id.radioButton3)
         val radioGroup = view.findViewById<RadioGroup>(R.id.radioGroupQuiz)
         option1.text = options[0].toString()
         option2.text = options[1].toString()
@@ -73,6 +74,9 @@ class QuizFragment : Fragment() {
         }
         view.findViewById<Button>(R.id.nextButton).setOnClickListener {
             title.text = questions[titleCounter].toString()
+            option1.isChecked = false
+            option2.isChecked = false
+            option3.isChecked = false
             answerText.text = ""
             for (i in options.keys) {
                 option1.text = options[optionsCounter + 1]
