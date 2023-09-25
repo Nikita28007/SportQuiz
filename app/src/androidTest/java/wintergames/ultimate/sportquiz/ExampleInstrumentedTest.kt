@@ -1,4 +1,4 @@
-package com.example.sportquiz
+package wintergames.ultimate.sportquiz
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

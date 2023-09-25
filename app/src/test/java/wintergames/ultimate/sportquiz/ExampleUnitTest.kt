@@ -1,4 +1,4 @@
-package com.example.sportquiz
+package wintergames.ultimate.sportquiz
 
 import org.junit.Test
 

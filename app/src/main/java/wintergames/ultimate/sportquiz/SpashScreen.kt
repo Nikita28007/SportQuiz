@@ -1,4 +1,4 @@
-package com.example.sportquiz
+package wintergames.ultimate
 
 import android.os.Build
 import android.os.Bundle
